@@ -9,13 +9,23 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
+<<<<<<< HEAD
     <!-- css -->
     <link rel="stylesheet" href="style2.css">
+=======
+    <!-- font awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style2.css">
+
+>>>>>>> 623d6dd5781b256a02488c65955f11f91a071f18
     <title>ProjectGan</title>
 </head>
 
 <body>
     <header>
+<<<<<<< HEAD
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
                 <div class="container-fluid">
@@ -33,13 +43,45 @@
                     </div>
                 </div>
             </nav>
+=======
+        <div>
+          <nav class="navbar navbar-expand-md navbar-light mr-auto fixed-top">
+            <a class="navbar-brand text-dark font-weight-bold" href="#">ProjectGan</a>
+            <button class="navbar-toggler" type="button" data-bs-target="#overlayNav" aria-controls="overlayNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon" onclick="openNav()"></span>
+            </button>
+            <div class="container-fluid">
+              <div id="overlayNav" class="overlay" style="margin-left: auto;">
+                <a href="index.php" class="closebtn" onclick="closeNav()">&times;</a>
+                <ul id="overlayContent" class="navbar-nav overlay-content">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark font-weight-bold" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark font-weight-bold" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark font-weight-bold" href="#">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark font-weight-bold" href="#">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+>>>>>>> 623d6dd5781b256a02488c65955f11f91a071f18
         </div>
 
         <div class="jumbotron jumbotron-fluid">
             <div id="text">
                 <h1>build your website<br>with "project gan"</h1>
                 <p>Providing good result with fair price</p>
+<<<<<<< HEAD
                 <a href="">order now</a>
+=======
+                <a href="" class="order">order now</a>
+>>>>>>> 623d6dd5781b256a02488c65955f11f91a071f18
             </div>
 
             <div>
@@ -152,6 +194,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-growl/1.0.0/jquery.bootstrap-growl.min.js"></script>
+<<<<<<< HEAD
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
@@ -161,8 +204,25 @@
     <script>
         $(window).scroll(function() {
             $('nav').toggleClass('scrolled', $(this).scrollTop() > 500);
+=======
+    <script>
+        function openNav() {
+          document.getElementById("overlayNav").style.width = "50%";
+        }
+
+        function closeNav() {
+          document.getElementById("overlayNav").style.width = "0%";
+        }
+
+        $(window).scroll(function() {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+>>>>>>> 623d6dd5781b256a02488c65955f11f91a071f18
         });
     </script>
 </body>
 
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> 623d6dd5781b256a02488c65955f11f91a071f18

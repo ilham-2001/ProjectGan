@@ -8,6 +8,25 @@
     line-height: 1.75rem;
 }
 
+<<<<<<< HEAD
+=======
+.order:link {
+  text-decoration: none;
+}
+
+.order:visited {
+  text-decoration: none;
+}
+
+.order:hover {
+  text-decoration: none;
+}
+
+.order:active {
+  text-decoration: none;
+}
+
+>>>>>>> 623d6dd5781b256a02488c65955f11f91a071f18
 .jumbotron {
     background-image: url(images/bg3.jpg);
     background-size: cover;
@@ -206,6 +225,21 @@ nav {
     padding: 0 15% 0 15%;
 }
 
+<<<<<<< HEAD
+=======
+@media only screen and (max-width: 800px) {
+  nav {
+    padding: 0 10%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  nav {
+    padding: 0 7%;
+  }
+}
+
+>>>>>>> 623d6dd5781b256a02488c65955f11f91a071f18
 .navbar {
     background: transparent !important;
     transition: 0.75s ease;
@@ -214,4 +248,65 @@ nav {
 .navbar.scrolled {
     background: #fff !important;
     box-shadow: 5px 5px 6px 5px #888888;
+<<<<<<< HEAD
 }
+=======
+}
+
+@media only screen and (max-width: 768px) {
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .overlay .closebtn {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay .closebtn:hover, .overlay .closebtn:focus {
+    color: #f1f1f1;
+  }
+
+  .overlay .closebtn {
+    display: block !important;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+}
+
+.overlay .closebtn {
+  display: none;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay .closebtn {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+>>>>>>> 623d6dd5781b256a02488c65955f11f91a071f18
